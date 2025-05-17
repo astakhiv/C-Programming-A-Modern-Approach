@@ -1,0 +1,5 @@
+(a) 010E2       illegal
+(b) 32.1E+5     legal
+(c) 0790        illegal
+(d) 100_000     illegal
+(e) 3.978e-2    legal

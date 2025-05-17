@@ -1,0 +1,4 @@
+(a) short unsigned int  legal
+(b) short float         illegal
+(c) long double         legal
+(d) unsigned long       legal

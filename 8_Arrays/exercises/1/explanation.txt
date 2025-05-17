@@ -1,0 +1,1 @@
+sizeof(a) / sizeof(t), where t is type of a's element is inferior, because if we change the type of array, we'll also have to change t

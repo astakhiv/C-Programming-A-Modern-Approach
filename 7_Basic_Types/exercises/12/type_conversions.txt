@@ -1,0 +1,9 @@
+d = i + f;
+i: int
+f: float
+d: double
+
+d (double) = i (int) + f (float) =>
+d (double) = i (float) + f (float) =>
+d (double) = ans (float) =>
+d (double) = ans (double)

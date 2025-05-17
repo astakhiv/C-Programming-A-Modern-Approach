@@ -21,15 +21,15 @@ int main(void)
 
     monthly_increace = loan_amount * monthly_rate;
     loan_amount = loan_amount - monthly_payment + monthly_increace;
-    printf("Balance remaining after first payment: %.2f\n", loan_amount);
+    printf("Balance remaining after first payment: $%.2f\n", loan_amount);
 
     monthly_increace = loan_amount * monthly_rate;
     loan_amount = loan_amount - monthly_payment + monthly_increace;
-    printf("Balance remaining after second payment: %.2f\n", loan_amount);
+    printf("Balance remaining after second payment: $%.2f\n", loan_amount);
 
     monthly_increace = loan_amount * monthly_rate;
     loan_amount = loan_amount - monthly_payment + monthly_increace;
-    printf("Balance remaining after third payment: %.2f\n", loan_amount);
+    printf("Balance remaining after third payment: $%.2f\n", loan_amount);
 
     return 0;
 }

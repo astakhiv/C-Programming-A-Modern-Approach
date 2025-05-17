@@ -1,0 +1,1 @@
+In order to use digits in character form as a subscript, we'll need to subtract the first digit appearing in a character set, in ASCII - '0', or 48 as it's sequential number, as well and have digits stored consequtive in the character set. 
