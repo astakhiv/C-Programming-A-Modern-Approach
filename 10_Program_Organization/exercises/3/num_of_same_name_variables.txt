@@ -1,0 +1,1 @@
+A program with a single function can have as many variables of the same name as the memory amount allows, as long as they are declared inside blocks, either nested or not.
