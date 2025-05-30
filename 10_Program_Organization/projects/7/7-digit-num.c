@@ -23,13 +23,14 @@ char digits[4][MAX_DIGITS * 4];
 
 void clear_digits_array(void);
 void process_digit(int digit, int position);
-void print_digits(void);
+void print_digits_array(void);
 
 int main(void)
 {
     int digits[MAX_DIGITS];
     char c;
     int i = 0;
+
     clear_digits_array();
 
     printf("Enter a number: ");
@@ -41,12 +42,7 @@ int main(void)
         }
     }
 
-    for (int j = 0; j < i; j++) {
-        printf(" %d", digits[j]);
-    }
-    printf("\n");
-
-    print_digits();
+    print_digits_array();
 
     return 0;
 }
@@ -73,7 +69,7 @@ void process_digit(int digit, int position)
     digits[1][position * 4 + 1] = segments[digit][6] ? '_' : ' ';
 }
 
-void print_digits(void)
+void print_digits_array(void)
 {
     int i, j;
 
