@@ -1,4 +1,0 @@
-(a) i += c;         legal
-(b) c = 2 * c - 1;  legal
-(c) putchar(c);     legal
-(d) printf(c);      illegal

@@ -1,4 +1,0 @@
-(a) Days in month       char
-(b) Days in year        char
-(c) Minutes in a day    short
-(d) Seconds in a day    long 
