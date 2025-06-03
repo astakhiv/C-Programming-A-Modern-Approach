@@ -1,0 +1,5 @@
+i * f / d
+i: int
+f: float
+d: double
+type: double

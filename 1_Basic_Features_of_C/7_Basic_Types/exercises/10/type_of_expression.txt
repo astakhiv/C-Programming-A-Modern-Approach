@@ -1,0 +1,5 @@
+i + (int) j * k
+i: int
+j: long
+k: unsigned int
+type: unsigned int

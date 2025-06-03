@@ -1,0 +1,14 @@
+If i is an integer variable and p is a pointer to it, which of the following:
+(a) *p
+(b) &p
+(c) *&p
+(d) &*p
+(e) *i
+(f) &i
+(g) *&i
+(h) &*i
+
+is an alias of i?
+
+Answer:
+(a), (g)

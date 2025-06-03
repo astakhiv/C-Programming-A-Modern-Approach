@@ -1,0 +1,33 @@
+int a;
+
+void f(int b)
+{
+    int c;
+}
+
+void g(void)
+{
+    int d;
+    {
+        int e;
+    }
+}
+
+int main(void) 
+{
+    int f;
+}
+
+Visible variables and parameters
+(a) The f function:
+a, b, c
+
+(b) The g function:
+a, d
+
+(c) The block in which e is declatred:
+a, d, e
+
+(d) The main function:
+a, f
+
