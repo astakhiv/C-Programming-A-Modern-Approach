@@ -1,0 +1,7 @@
+Given pointers: high, low, middle
+
+middle = (low + high) / 2; // WRONG
+
+The pointers can't be added
+
+middle = (low + (high - low)) / 2; // CORRECT
