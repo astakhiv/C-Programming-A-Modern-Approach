@@ -1,0 +1,7 @@
+p = a;
+a is a one-dimensional integer array
+
+(a) p == a[0] // compiles with a warning, false; illegal as p has the int * type, whereas a[0] has int type
+(b) p == &a[0] // legal, true
+(c) *p == a[0] // legal, true;
+(d) p[0] == a[0] // legal, true;

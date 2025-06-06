@@ -1,0 +1,7 @@
+int *p;
+
+for (p = temperatures; p < temperatures + 7; p++) {
+    printf(" %d", find_largest(*p, 24));
+}
+
+printf("\n");
