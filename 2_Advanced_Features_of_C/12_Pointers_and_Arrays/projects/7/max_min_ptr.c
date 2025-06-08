@@ -25,14 +25,14 @@ int main(void)
 
 void max_min(int a[], int n, int *max, int *min)
 {
-    int i;
+    int *p = a;
 
-    *max = *min = a[0];
-    for (i = 1; i < n; i++) {
-        if (a[i] > *max) {
-            *max = a[i];
-        } else if (a[i] < *min) {
-            *min = a[i];
+    *max = *min = *p;
+    for (p += 1; p < a + n; p++) {
+        if (*p > *max) {
+            *max = *p;
+        } else if (*p < *min) {
+            *min = *p;
         }
     }
 }

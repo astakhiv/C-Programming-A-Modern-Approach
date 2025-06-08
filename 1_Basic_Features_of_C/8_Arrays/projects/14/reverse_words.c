@@ -19,6 +19,7 @@ int main(void)
     end = c;
     end_i = i;
 
+    printf("Reversal of sentence: ");
     for (i = end_i - 1; i >= 0; i--) {
         if (i - 1 < 0 || sent[i-1] == ' ') { 
             for (j = i; sent[j] != ' ' && j < end_i; j++) {
