@@ -1,0 +1,6 @@
+(a) *str = 0;
+(b) str[0] = '\0';
+(c) strcpy(str, "");
+(d) strcat(str, "");
+
+given, that str is an array of characters, the statement (d) is not equal to the others, as it adds an empty string to str 

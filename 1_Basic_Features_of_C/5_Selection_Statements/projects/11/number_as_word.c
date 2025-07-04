@@ -18,7 +18,7 @@ int main(void)
 
     printf("You entered the number ");
 
-    if (number < 19) {
+    if (number < 20) {
         switch (number) {
             case 10: printf("ten\n"); break;
             case 11: printf("eleven\n"); break;
@@ -33,27 +33,29 @@ int main(void)
         }
     } else {
         switch(number / 10) {
-            case 2: printf("twenty-"); break;
-            case 3: printf("thirty-"); break;
-            case 4: printf("fourty-"); break;
-            case 5: printf("fifty-"); break;
-            case 6: printf("sixty-"); break;
-            case 7: printf("seventy-"); break;
-            case 8: printf("eighty-"); break;
-            case 9: printf("ninety-"); break;
+            case 2: printf("twenty"); break;
+            case 3: printf("thirty"); break;
+            case 4: printf("fourty"); break;
+            case 5: printf("fifty"); break;
+            case 6: printf("sixty"); break;
+            case 7: printf("seventy"); break;
+            case 8: printf("eighty"); break;
+            case 9: printf("ninety"); break;
         }
 
         switch(number % 10) {
-            case 1: printf("one\n"); break;
-            case 2: printf("two\n"); break;
-            case 3: printf("three\n"); break;
-            case 4: printf("four\n"); break;
-            case 5: printf("five\n"); break;
-            case 6: printf("six\n"); break;
-            case 7: printf("seven\n"); break;
-            case 8: printf("eight\n"); break;
-            case 9: printf("nine\n"); break;
+            case 1: printf("-one"); break;
+            case 2: printf("-two"); break;
+            case 3: printf("-three"); break;
+            case 4: printf("-four"); break;
+            case 5: printf("-five"); break;
+            case 6: printf("-six"); break;
+            case 7: printf("-seven"); break;
+            case 8: printf("-eight"); break;
+            case 9: printf("-nine"); break;
         }
+
+        printf("\n");
     }
 
     return 0;

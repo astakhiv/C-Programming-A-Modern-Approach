@@ -1,0 +1,6 @@
+char *p = "abc";
+
+(a) putchar(p);     Illegal, given char*, when expexted char
+(b) putchar(*p);    Legal, output: "a";
+(c) puts(p);        Legal, output: "abc";
+(d) puts(*p);       Illegal, given char, when expexted char*

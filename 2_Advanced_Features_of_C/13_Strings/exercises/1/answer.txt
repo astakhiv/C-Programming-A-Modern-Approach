@@ -1,0 +1,12 @@
+(a) printf("%c", '\n'); (g) putchar('\n');
+(b) printf("%c", "\n"); (h) putchar("\n");
+(c) printf("%s", '\n'); (i) puts('\n');
+(d) printf("%s", "\n"); (j) puts("\n");
+(e) printf('\n'); (k) puts("");
+(f) printf("\n");  
+
+Incorrect:
+(b), (c), (e), (h), (i)
+
+Reason:
+Wrong type: given string, when expected char, and char, when expected string.

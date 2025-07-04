@@ -1,0 +1,5 @@
+strcpy(str, "tire-bouchon");
+strcpy(&str[4], "d-or-wi");
+strcat(str, "red?");
+
+the value of str will be: tired-or-win

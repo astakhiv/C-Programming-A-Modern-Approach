@@ -1,0 +1,8 @@
+char *duplicate(const char *p)
+{
+    char *q;
+    strcpy(q, p);
+    return q;
+}
+
+q is undefined;
