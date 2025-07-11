@@ -1,0 +1,2 @@
+(1) typed arguments as well as return values
+(2) recursion

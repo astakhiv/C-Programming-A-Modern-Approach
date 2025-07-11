@@ -1,0 +1,4 @@
+long long_max(long x, long y)
+{
+    return x > y ? x : y;
+}
