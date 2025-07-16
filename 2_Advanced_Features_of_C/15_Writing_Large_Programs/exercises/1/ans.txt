@@ -1,0 +1,10 @@
+(a)
+
+- enables many people to work on the same project, without great difficulties during merging
+- simplifies the process of making changes
+- enables simpler documentation
+
+(b)
+
+- increases amounts of data used
+- requires additional steps - and for simplicity - to compile

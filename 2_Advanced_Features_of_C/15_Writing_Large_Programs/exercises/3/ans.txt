@@ -1,0 +1,1 @@
+it depends on the implementation, e. g. if it is defined that first the compiler should look for the file in the local directory and then in the /usr/include directory (or elswhrer), there will occur no problem, whereas, if the implementation doesn't state that, some problems may indeed occur.
