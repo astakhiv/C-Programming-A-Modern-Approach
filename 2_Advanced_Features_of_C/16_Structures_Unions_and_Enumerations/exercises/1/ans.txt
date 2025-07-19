@@ -1,0 +1,1 @@
+yes, as both structures have a separate scope for their members

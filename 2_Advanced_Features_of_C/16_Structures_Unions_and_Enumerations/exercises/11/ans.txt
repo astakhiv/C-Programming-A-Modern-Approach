@@ -1,0 +1,4 @@
+a - 8
+union - 8
+f - 4
+total: 20
