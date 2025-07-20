@@ -1,0 +1,5 @@
+(a) yes
+(b) no, the obey C's scope rules as an example
+(c) yes
+(d) no, there may be two different constants with the same value
+(e) yes

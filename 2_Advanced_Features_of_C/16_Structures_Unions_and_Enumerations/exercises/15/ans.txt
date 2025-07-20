@@ -1,0 +1,5 @@
+(a)
+enum weed_days {MON, TUE, WED, THU, FRI, SAT, SUN}; // looked up;
+
+(b)
+typedef enum {MON, TUE, WED, THU, FRI, SAT, SUN} Week_days; 
