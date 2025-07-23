@@ -1,0 +1,11 @@
+// looked up
+First call of free makes you loose the way to all the other nodes
+
+struct node *temp;
+
+p = first;
+while (p != NULL) {
+    temp = p;
+    p = p->next;
+    free(temp);
+}
