@@ -1,0 +1,5 @@
+// looked up
+
+Answer: 3
+
+f1 tests on which value, f2 returns zero returning that value
