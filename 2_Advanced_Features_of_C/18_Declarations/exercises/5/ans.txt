@@ -1,0 +1,4 @@
+(a) Every variable with static storage duration has file scope.			// no, static doesn't change the scope
+(b) Every variable declared inside a function has no linkage.			// yes, as they aren't available outside of their scope
+(c) Every variable with internal linkage has static storage duration.	// yes, as only static sets the linkage to internal
+(d) Every parameter has block scope.									// yes

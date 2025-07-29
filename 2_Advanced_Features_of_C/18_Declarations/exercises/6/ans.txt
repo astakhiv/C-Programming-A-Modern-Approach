@@ -1,0 +1,13 @@
+void print_error(const char *message)
+{
+	int n = 1;	<- error: the variable must be static to keep it's value after function returns
+	printf("Error %d: %s\n", n++, message);
+}
+
+
+
+void print_error(const char *message)
+{
+	static int n = 1;
+	printf("Error %d: %s\n", n++, message);
+}
