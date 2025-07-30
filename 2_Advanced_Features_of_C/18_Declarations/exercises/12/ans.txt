@@ -1,0 +1,19 @@
+(a) follows:
+Write a complete description of the type of the function f, assuming that it’s declared as
+
+int (*f(float (*)(long), char *))(double);
+
+f is a function that has two arguments:
+	1) a pointer to a function with one long parameter, that returns a float value
+	2) and a pointer to a char
+it return a pointer to a function with a double parameter, that returns int value.
+
+(b) Give an example showing how f would be called.
+
+float g(long a)
+{
+	return 1f;
+}
+
+char a = 'a';
+f(g, &a);

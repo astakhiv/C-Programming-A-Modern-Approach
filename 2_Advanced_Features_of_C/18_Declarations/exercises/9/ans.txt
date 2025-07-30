@@ -1,0 +1,23 @@
+(a) char (*x[10])(int);
+
+	typedef char *Fcn(int);
+	typedef Fcn *Fcn_ptr;
+	typedef Fcn_ptr Fcn_prt_array[10];
+	Fcn_prt_array x;
+
+(b) int (*x(int))[5];
+	typedef int Arr[5];
+	typedef Arr *Arr_ptr;
+	typedef Arr_ptr Fcn(int);
+	Fcn x;
+(c) float *(*x(void))(int);
+	typedef float *Fcn(int);
+	typedef Fcn *Fcn_prt;
+	typedef Fcn_prt Func(void);
+	Func x;
+(d) void (*x(int, void (*y)(int)))(int);
+	typedef void Fcn(int);
+	typedef Fcn *Fcn_prt;
+	typedef void (*Fnc)(int);
+	typedef Fcn_prt Func(int, Fnc);
+	Func x;

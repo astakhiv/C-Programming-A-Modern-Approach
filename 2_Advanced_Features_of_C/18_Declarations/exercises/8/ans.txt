@@ -1,0 +1,8 @@
+(a) char (*x[10])(int);
+	x is an array of 10 pointers to functions with one integer parameter that return char
+(b) int (*x(int))[5];
+	x is a function that accepts an integer and returns a pointer to array of 5 integers;
+(c) float *(*x(void))(int);
+	x is a function with no arguments that returns a pointer to a funcion with one integer argument and returns a pointer to a float
+(d) void (*x(int, void (*y)(int)))(int);
+	x is a function with 2 arguments: integer and a pointer to a function y, with int argument and no return value. It returns a pointer to a function with an int parameter and no return value
