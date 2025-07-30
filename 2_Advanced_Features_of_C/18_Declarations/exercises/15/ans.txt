@@ -1,0 +1,1 @@
+Storage duration whether or not a variable has a default initial value.
