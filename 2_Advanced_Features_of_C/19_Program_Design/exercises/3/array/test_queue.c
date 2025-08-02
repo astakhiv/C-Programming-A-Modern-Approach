@@ -58,7 +58,7 @@ void handle_push(void)
 void handle_pop(void)
 {
 	int value = pop();
-	printf("Value popd: %d\n", value);
+	printf("Value poped: %d\n", value);
 }
 
 void handle_get_first(void)

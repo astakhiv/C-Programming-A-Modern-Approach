@@ -13,7 +13,7 @@ static struct node *end = NULL;
 
 static void terminate(const char *msg)
 {
-	printf("%s\n.", msg);
+	printf("%s\n", msg);
 	exit(EXIT_FAILURE);
 }
 
@@ -51,11 +51,15 @@ int pop(void)
 
 int get_first(void)
 {
+	if (end == NULL)
+		terminate("Error in get first: queue is empty.");		
 	return end->data;
 }
 
 int get_last(void)
 {
+	if (end == NULL)
+		terminate("Error in get last: queue is empty.");		
 	return start->data;
 }
 

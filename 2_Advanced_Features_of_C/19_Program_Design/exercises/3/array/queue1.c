@@ -47,11 +47,15 @@ int pop(void)
 
 int get_first(void)
 {
+	if (len == 0)
+		terminate("Error in get first: queue is empty.");
 	return queue[start-1];
 }
 
 int get_last(void)
 {
+	if (len == 0)
+		terminate("Error in get last: queue is empty.");
 	return queue[end];
 }
 
