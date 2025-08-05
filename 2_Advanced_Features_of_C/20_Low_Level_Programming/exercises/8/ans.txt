@@ -1,0 +1,12 @@
+unsigned int f(unsigned int i, int m, int n)
+{
+	return (i >> (m + 1 - n)) & ~(~0 << n);
+}
+
+(a) What is the value of ~(~0 << n)?
+
+ans: forms a number of ones starting from the left with n zeros on the right /* looked up */ and swaps the to zeros on the left size and ones on the right one
+
+(b) What does this function do?
+// looked up
+ans: returns a bit-field of size n srarting from m.

@@ -1,0 +1,4 @@
+// looked up
+xor the variable with a number with 1 in the desired bit.
+for 4th bit:
+i = i ^ 0x0010;

@@ -1,0 +1,4 @@
+the statement clears the next bit that is 1
+
+// looked up
+checks, whether a value is zero or power of two

@@ -1,0 +1,6 @@
+(a) some compilers may store data in little-endian order and others in big-endian order.
+In the later case, the one is set to the sign bit, causing the result to be -1, unlike in
+the earlier - desirable - 1.
+
+// looked up
+(b) use unsigned int or signed int instead of int.

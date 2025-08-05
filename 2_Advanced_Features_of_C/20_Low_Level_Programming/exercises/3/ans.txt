@@ -1,0 +1,10 @@
+x = 0b0000000000001010
+y = 0b0000000000000110
+
+#define M(x,y) ((x)^=(y),(y)^=(x),(x)^=(y))
+
+x = 0b0000000000001100
+y = 0b0000000000001010
+x = 0b0000000000000110
+
+ans: the macro swaps the values of two variables;

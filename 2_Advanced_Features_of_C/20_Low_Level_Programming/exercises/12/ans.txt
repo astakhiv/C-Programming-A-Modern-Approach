@@ -1,0 +1,18 @@
+arithmetic operations have higher precedence than bitwise ones, so we get
+high_byte << (8 + low_byte)
+not
+(high_byte << 8) + low_byte
+
+to fix, put parantheses in the appropriate place
+
+unsigned short create_short(unsigned char high_byte, unsigned char low_byte)
+{
+	return (high_byte << 8) + low_byte;
+}
+
+or change addition to the inclusive or:
+
+unsigned short create_short(unsigned char high_byte, unsigned char low_byte)
+{
+	return high_byte << 8 | low_byte;
+}

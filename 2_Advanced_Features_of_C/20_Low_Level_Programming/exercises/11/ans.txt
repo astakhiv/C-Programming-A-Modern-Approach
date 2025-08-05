@@ -1,0 +1,10 @@
+== has heigher precedence than &, so after == we get 0 and & we also get 0.
+
+to fix, wrap the left side of == in parantheses:
+
+if (key_code & (SHIFT_BIT | CTRL_BIT | ALT_BIT) == 0)
+	printf("No modifier keys pressed\n");
+	|											|
+	v											v
+if ((key_code & (SHIFT_BIT | CTRL_BIT | ALT_BIT)) == 0)
+	printf("No modifier keys pressed\n");
