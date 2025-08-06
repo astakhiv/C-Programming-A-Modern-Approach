@@ -1,0 +1,179 @@
+./AppleEXR.h					// low level API to a software OpenEXR encoder / decoder
+./AppleTextureEncoder.h			// low level interface into a software ASTC encoder / decoder
+./AssertMacros.h				// structured error handling and assertion macros
+./Availability.h				// for use in OS header files. Use: tagging function prototypes and Objective-C methods
+./AvailabilityInternal.h		// comtains implementation details of a macro from <Availability.h>
+./AvailabilityInternalLegacy.h	// same as previous, but legacy, i assume
+./AvailabilityMacros.h			// autoconfiguration of AVAILABLE_ macros for Mac OS X
+./AvailabilityVersions.h		// dunno, maybe the versions to use in the Availability files
+./Block.h						// dunno, maybe allowes block export						
+./ConditionalMacros.h			// set up for compiler independent conditionals
+./MacTypes.h					// basic Macintosh data types
+./NSSystemDirectories.h			// no need to care, i guess, it's deprecated anyways
+./TargetConditionals.h			// autoconfig of TARGET_ conditionals for Mac OS X and iPhone
+./Xplugin.h						// windowing API for rootless X11 server
+								// i removed all the _ files from here.
+./aio.h							// header for POSIX async IO APIs
+./aliasdb.h						// ain't sure, deals with alias db
+./alloca.h						// defines prototype and macros for the alloca function 
+./ar.h							// archiving
+./asl.h							// system log message sending and searching functions, contains deprecated contents
+./bitstring.h					// defines bit-string manipulation macros
+./bootparams.h					// defines bootparams lookup routines
+./bootstrap.h					// bootstrap things
+./bzlib.h						// part of a program for lossless, block-sorting data compresion
+./cache.h						// UNIX-level caching API
+./cache_callbacks.h				// deals with cache callbacks
+./checkint.h					// detect overflow in arithmetic
+./com_err.h						// functions to handle Kerberos errors 
+./compression.h					// compression 
+./copyfile.h					// an API for copying of files and their associated metadata
+./cpio.h						// cpio archive values
+./crt_externs.h					// prototypes for getting env info in the world of dynamic libs
+./curses.h						// screen handling and optimization
+./db.h							// i'm done here. maybe some day i'll finish this, but i'm done for now.
+./dirent.h
+./disktab.h
+./dlfcn.h
+./dns.h
+./dns_sd.h
+./dns_util.h
+./dtrace.h
+./err.h
+./eti.h
+./execinfo.h
+./expat.h
+./expat_config.h
+./expat_external.h
+./fcntl.h
+./fmtmsg.h
+./fnmatch.h
+./form.h
+./fsproperties.h
+./fstab.h
+./fts.h
+./ftw.h
+./get_compat.h
+./gethostuuid.h
+./getopt.h
+./glob.h
+./grp.h
+./gssapi.h
+./histedit.h
+./iconv.h
+./ifaddrs.h
+./krb5.h
+./langinfo.h
+./launch.h
+./lber.h
+./lber_types.h
+./ldap.h
+./ldap_cdefs.h
+./ldap_features.h
+./ldap_schema.h
+./ldap_utf8.h
+./ldif.h
+./libc.h
+./libcharset.h
+./libgen.h
+./libmanagedconfigurationfiles.h
+./libproc.h
+./libunwind.h
+./localcharset.h
+./membership.h
+./memory.h
+./menu.h
+./monetary.h
+./monitor.h
+./mpool.h
+./nameser.h
+./nc_tparm.h
+./ncurses.h
+./ncurses_dll.h
+./ndbm.h
+./netdb.h
+./nl_types.h
+./nlist.h
+./notify.h
+./notify_keys.h
+./ntsid.h
+./panel.h
+./paths.h
+./pcap-bpf.h
+./pcap-namedb.h
+./pcap.h
+./poll.h
+./printerdb.h
+./printf.h
+./profile.h
+./pthread.h
+./pthread_impl.h
+./pthread_spis.h
+./pwd.h
+./ranlib.h
+./readpassphrase.h
+./regex.h
+./removefile.h
+./resolv.h
+./rune.h
+./runetype.h
+./sandbox.h
+./sched.h
+./search.h
+./semaphore.h
+./sgtty.h
+./slapi-plugin.h
+./spawn.h
+./sqlite3.h
+./sqlite3ext.h
+./stab.h
+./standards.h
+./strhash.h
+./string_x86.h
+./stringlist.h
+./strings.h
+./struct.h
+./sysdir.h
+./sysexits.h
+./syslog.h
+./tar.h
+./tcl.h
+./tclDecls.h
+./tclPlatDecls.h
+./tclTomMath.h
+./tclTomMathDecls.h
+./term.h
+./term_entry.h
+./termcap.h
+./termios.h
+./tic.h
+./time.h
+./timeconv.h
+./timingsafe.h
+./tk.h
+./tkDecls.h
+./tkIntXlibDecls.h
+./tkMacOSX.h
+./tkPlatDecls.h
+./ttyent.h
+./tzfile.h
+./ucontext.h
+./ulimit.h
+./unctrl.h
+./unistd.h
+./unwind.h
+./unwind_arm_ehabi.h
+./unwind_itanium.h
+./usbuf.h
+./util.h
+./utime.h
+./utmp.h
+./utmpx.h
+./vis.h
+./vproc.h
+./wordexp.h
+./xattr_flags.h
+./xcselect.h
+./xlocale.h
+./zconf.h
+./zlib.h

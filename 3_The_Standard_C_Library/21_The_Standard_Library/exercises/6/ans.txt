@@ -1,0 +1,4 @@
+(a) they may have been added later in the course of C development
+(b) dunno
+(c) the use of unified source of data, being no need to think "where does this macro come from" as well
+	as lesser chance to mess up with the use of the same names.

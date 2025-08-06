@@ -1,0 +1,3 @@
+first - definition, then macro.
+
+Why: i guess, it "overshadows" the definition
