@@ -1,0 +1,2 @@
+1) doesn't handle the failure of opening file
+2) doesn't explicitly chech for a NULL pointer

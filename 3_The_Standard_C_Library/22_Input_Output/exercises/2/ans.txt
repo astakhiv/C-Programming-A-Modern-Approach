@@ -1,0 +1,4 @@
+(a) a // wrong, must be "rb+"
+(b) a
+(c)	rb 
+(d) rb // wrong, must be "r"
