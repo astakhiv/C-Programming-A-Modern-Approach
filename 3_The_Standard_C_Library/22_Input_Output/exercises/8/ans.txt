@@ -1,0 +1,6 @@
+Answer: yes
+
+must be
+
+no, as "%1s" reads first nonblank character and stores it with a null character,
+whereas "% c" reads first nonblank character and stores only it

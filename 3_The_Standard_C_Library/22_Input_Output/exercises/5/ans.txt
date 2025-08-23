@@ -1,0 +1,4 @@
+%.4d vs %04d
+
+Answer:
+i guess, there are no diferences

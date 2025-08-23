@@ -1,0 +1,6 @@
+Answer:
+printf("%d widget%c\n", widgets, widgets > 1 ? 's' : '');
+
+must be
+
+printf(widget == 1 ? "%d widget" : "%d widgets", widget);
