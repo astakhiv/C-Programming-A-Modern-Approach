@@ -1,0 +1,4 @@
+(a) getch()			// wrong, must be getch(stdin)
+(b) getchar()		// correct
+(c) getc(stdin)		// correct
+(d) fgetc(stdin)	// correct

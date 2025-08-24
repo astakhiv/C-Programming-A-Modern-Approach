@@ -1,0 +1,9 @@
+It will compile without an error, but the program would write 1s to the file, as the expression:
+
+ch = getc(source_fp) != EOF
+
+would be equal to:
+
+ch = (getc(source_fp) != EOF)
+
+which has value 0 until the file ends or an error occurs

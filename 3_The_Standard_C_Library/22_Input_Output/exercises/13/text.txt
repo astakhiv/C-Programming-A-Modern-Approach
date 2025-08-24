@@ -1,0 +1,7 @@
+hello
+this is a test file
+to see
+wether the program
+can tell
+the number of symbols
+on some line

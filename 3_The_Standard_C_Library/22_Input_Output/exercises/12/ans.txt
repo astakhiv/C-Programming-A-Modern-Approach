@@ -1,0 +1,31 @@
+int count_perionds(const char *filename)
+{
+	FILE *fp;
+	int n = 0;
+
+	if ((fp = fopen(filename, "r")) != NULL) {
+		while (fgetc(fp)) != EOF)
+			if (fgetc(fp) == '.')
+				n++;
+		fclose(fp);
+	}
+	return n;
+}
+
+Each iterartion reads 2 characters, which might skip some periods.
+The proper solution is:
+
+int count_perionds(const char *filename)
+{
+	FILE *fp;
+	int ch, n = 0;
+
+	if ((fp = fopen(filename, "r")) != NULL) {
+		while ((ch = fgetc(fp))) != EOF)
+			if (ch == '.')
+				n++;
+		fclose(fp);
+	}
+	return n;
+}
+

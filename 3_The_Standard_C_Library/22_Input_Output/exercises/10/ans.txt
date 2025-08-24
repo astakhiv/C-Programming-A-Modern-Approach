@@ -1,0 +1,10 @@
+int status;
+while ((ch = getc(source_fp)) != EOF) {
+	status = putc(ch, dest_fp);
+	if (status == EOF ** ferror(dest_fp)) {
+		fprintf(stderr, "An error occured while wrinting\n");
+		exit(EXIT_FAILURE);
+	}
+}	
+
+presonal question: is there a need to close souce_fp and dest_fp streams as it is done in the check for opening destination file?
