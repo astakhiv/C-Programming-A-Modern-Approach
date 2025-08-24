@@ -1,0 +1,4 @@
+(a) fseek(fp, 0L, SEEK_SET)		// wrong, must be fseek(fp, 64L * n, SEEK_SET)
+(b) fseek(fp, -64L, SEEK_END)
+(c) fseek(fp, 64L, SEEK_CUR)
+(d) fseek(fp, -2 * 64L, SEEK_CUR)
